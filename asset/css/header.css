@@ -8,7 +8,7 @@
 .header_selections{
     background-color: #e31837;
     padding: 18px 0;
-    position: fixed; /* Cố định header */
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -19,14 +19,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
     margin-left: 84px;
     margin-right: 84px;
     z-index: 9999;
+    max-width: 800px;
 }
 
 .header_selections img{
     width: 50px;
+    margin-left: 10%;
 }
 
 .header_container ul{

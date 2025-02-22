@@ -142,39 +142,24 @@
 
 /* Container chứa danh sách tin */
 .news-container {
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 
 /* Mỗi tin tức */
 .news-item {
-    width: 22%;
-    text-align: center;
-    background: #fff;
-}
-
-/* Ảnh tin tức */
-.news-item img {
-    width: 100%;
-    height: 180px;
-    border-radius: 5px;
-    object-fit: cover;
-}
-
-/* Tiêu đề tin */
-.news-item h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 10px;
+    max-width: 1000px;
 }
 
 /* Đoạn mô tả tin */
 .news-item p {
-    font-size: 14px;
+    font-size: 23px;
     color: #555;
     margin-top: 5px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 /* Nút XEM THÊM */
@@ -188,7 +173,8 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 50px;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    margin-bottom: 40px;
+    transition :transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 /* Hiệu ứng hover */
@@ -264,6 +250,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.2s ease-in-out;
+    margin-bottom: 30px;
 }
 
 /* Hover nút */
